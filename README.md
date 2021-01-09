@@ -29,4 +29,11 @@ We will be primarily evaluating based on how well the search works for users. A 
 current state, can be deployed easily on Heroku's free tier.
 3. In your submission, share with us what changes you made and how you would prioritize changes if you had more time.
 
+### Run local
+```
+$ go build -o bin/shakesearch -v .
+$ heroku local web
+```
+Go to web: http://localhost:5000/
+
 
